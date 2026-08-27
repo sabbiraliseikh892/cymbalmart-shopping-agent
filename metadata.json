@@ -1,0 +1,10 @@
+{
+  "name": "CymbalMart Shopping Agent",
+  "description": "An AI-powered party planner and shopping assistant for CymbalMart that converts event intent into curated, budget-conscious shopping lists, aligns items to budget, and finalizes checkout.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

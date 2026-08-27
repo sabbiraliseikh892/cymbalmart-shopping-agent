@@ -206,7 +206,6 @@ Do not commit access tokens.
 Keep sensitive environment variables in .env.
 Use .env.example as a template.
 
-📸 Screenshots
 ## 📸 Screenshots
 
 ![CymbalMart Shopping Agent](https://github.com/sabbiraliseikh892/cymbalmart-shopping-agent/raw/refs/heads/main/CymbalMart.png)

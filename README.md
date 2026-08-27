@@ -209,6 +209,7 @@ Use .env.example as a template.
 📸 Screenshots
 ![CymbalMart Shopping Agent](./CymbalMart.png)
 
+
 🎓 Hackathon / Learning Project
 
 This project was created as part of an AI application development and hackathon-style learning experience using Google AI Studio and Gemini.

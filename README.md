@@ -1,6 +1,6 @@
 # 🛒 CymbalMart Shopping Agent
 
-An AI-powered party planning and shopping assistant built with Google AI Studio and Gemini.
+An AI-powered party planning and shopping assistant built with **Google AI Studio** and **Gemini**.
 
 CymbalMart Shopping Agent helps customers plan events, create shopping lists, optimize budgets, find products, and interact with an AI-powered shopping assistant.
 
@@ -10,9 +10,17 @@ CymbalMart Shopping Agent helps customers plan events, create shopping lists, op
 
 Planning a party can involve managing guests, calculating quantities, creating shopping lists, comparing products, and staying within a budget.
 
-CymbalMart Shopping Agent brings these activities together into an interactive AI-powered shopping experience.
+**CymbalMart Shopping Agent** brings these activities together into an interactive AI-powered shopping experience.
 
-The application combines party planning, shopping assistance, budget optimization, and customer interaction in a single interface.
+The application combines:
+
+- 🎉 Party planning
+- 🛒 Shopping assistance
+- 💰 Budget optimization
+- 📊 Cost analysis
+- 🤖 AI-powered customer assistance
+- 🏪 In-store shopping assistance
+- 🎙️ Voice interaction
 
 ---
 
@@ -33,6 +41,7 @@ The application combines party planning, shopping assistance, budget optimizatio
 - Calculate cost per guest
 - Track budget variance
 - Automatically recalculate totals when shopping items change
+- Monitor whether the shopping plan is under or over budget
 
 ### 🛒 Shopping List
 
@@ -41,10 +50,11 @@ The application combines party planning, shopping assistance, budget optimizatio
 - Add or modify shopping items
 - Recalculate estimated costs
 - Organize products by department
+- Track shopping progress
 
 ### 🤖 AI Shopping Assistant
 
-The CymbalMart Assistant provides an interactive customer experience.
+The **CymbalMart Assistant** provides an interactive customer experience powered by Gemini.
 
 Customers can ask questions about:
 
@@ -55,19 +65,33 @@ Customers can ask questions about:
 - Brand alternatives
 - Item locations
 - Budget optimization
+- Shopping assistance
+
+Example questions:
+
+```text
+Where is olive oil located?
+
+Suggest cheaper alternatives for my shopping list.
+
+Help me stay within my party budget.
+
+What products do I need for a birthday party?
+```
 
 ### 🏪 In-Store Shopping
 
-The application provides an in-store shopping experience including:
+The application provides an interactive in-store shopping experience including:
 
 - Department navigation
 - Product location assistance
 - Store information
 - Shopping recommendations
+- Product and brand alternatives
 
 ### 📊 Cost Analysis
 
-The application provides cost information including:
+The application provides useful shopping and budget metrics including:
 
 - Total estimated cart cost
 - Target budget
@@ -84,34 +108,56 @@ The application supports interactive voice features for customer assistance and 
 
 ## 🧠 AI Capabilities
 
-The application uses Gemini-powered AI interactions to provide intelligent shopping assistance.
+The application uses **Gemini-powered AI interactions** to provide intelligent shopping assistance.
 
-Example customer requests:
+The AI assistant can help customers with tasks such as:
+
 ```text
 Where is olive oil located?
+
 Suggest cheaper alternatives for my shopping list.
+
 Help me stay within my party budget.
+
 What products do I need for a birthday party?
 
-🛠️ Technology Stack
-Frontend
-React
-TypeScript
-Vite
-AI
-Google AI Studio
-Gemini
-Backend / Runtime
-Node.js
-Bun
-Development
-Git
-GitHub
+Where can I find snacks?
+
+What is the cheapest option for this item?
+```
+
+---
+
+## 🛠️ Technology Stack
+
+### Frontend
+
+- React
+- TypeScript
+- Vite
+
+### AI
+
+- Google AI Studio
+- Gemini
+
+### Backend / Runtime
+
+- Node.js
+- Bun
+- TypeScript
+
+### Development Tools
+
+- Git
+- GitHub
+- Visual Studio Code / Code Editor
+
+---
+
+## 🏗️ Project Structure
 
 ```text
-Where is olive oil located?
-
-🏗️ Project Structure
 cymbalmart-shopping-agent/
 │
 ├── assets/
@@ -129,116 +175,162 @@ cymbalmart-shopping-agent/
 ├── server.ts
 ├── tsconfig.json
 └── vite.config.ts
+```
 
-🚀 Getting Started
-Prerequisites
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
 
 Make sure you have the following installed:
 
-Node.js
-npm
-Git
+- Node.js
+- npm
+- Git
 
-You may also use Bun if your project environment requires it.
+You may also use **Bun** if your project environment requires it.
 
-📥 Clone the Repository
+---
+
+## 📥 Clone the Repository
+
+Clone the project from GitHub:
+
+```bash
 git clone https://github.com/sabbiraliseikh892/cymbalmart-shopping-agent.git
+```
 
 Move into the project directory:
 
+```bash
 cd cymbalmart-shopping-agent
+```
 
-📦 Install Dependencies
+---
 
-Using npm:
+## 📦 Install Dependencies
 
+### Using npm
+
+```bash
 npm install
+```
 
-Or, if you are using Bun:
+### Using Bun
 
+```bash
 bun install
+```
 
-📦 Install Dependencies
+---
 
-Using npm:
-
-npm install
-
-Or, if you are using Bun:
-
-bun install
-
-🔐 Environment Configuration
+## 🔐 Environment Configuration
 
 Create your local environment file based on:
 
+```text
 .env.example
-
-Do not commit real API keys or secrets to GitHub.
+```
 
 For example:
 
+```text
 .env
+```
 
-should remain local and should not be pushed to the repository.
+Keep your `.env` file local.
 
-▶️ Run the Application
+**Do not commit real API keys, passwords, or other secrets to GitHub.**
 
-Using npm:
+The `.gitignore` file should prevent sensitive environment files from being committed.
 
+---
+
+## ▶️ Run the Application
+
+### Using npm
+
+```bash
 npm run dev
+```
 
-Or using Bun:
+### Using Bun
 
+```bash
 bun run dev
+```
 
 Open the local development URL shown in your terminal.
 
-🔒 Security
+---
+
+## 🔒 Security
 
 This project follows basic security practices for handling environment configuration.
 
-Important:
+### Important Security Rules
 
-Do not commit API keys.
-Do not commit passwords.
-Do not commit access tokens.
-Keep sensitive environment variables in .env.
-Use .env.example as a template.
+- ❌ Do not commit API keys
+- ❌ Do not commit passwords
+- ❌ Do not commit access tokens
+- ❌ Do not commit private credentials
+- ✅ Keep sensitive environment variables in `.env`
+- ✅ Use `.env.example` as a template
+- ✅ Keep `.env` excluded through `.gitignore`
+
+---
 
 ## 📸 Screenshots
 
 ![CymbalMart Shopping Agent](https://github.com/sabbiraliseikh892/cymbalmart-shopping-agent/raw/refs/heads/main/CymbalMart.png)
 
+---
 
+## 🎓 Hackathon / Learning Project
 
-🎓 Hackathon / Learning Project
-
-This project was created as part of an AI application development and hackathon-style learning experience using Google AI Studio and Gemini.
+This project was created as part of an **AI application development and hackathon-style learning experience** using Google AI Studio and Gemini.
 
 The project demonstrates how generative AI can be integrated into an interactive shopping and party-planning application.
 
-🔮 Future Improvements
+---
+
+## 🔮 Future Improvements
 
 Potential future improvements include:
 
-Real product inventory integration
-Real-time product pricing
-User authentication
-Persistent shopping lists
-Order tracking
-Payment integration
-Personalized recommendations
-Database integration
-Production deployment
-Mobile application
-Advanced voice interaction
-👨‍💻 Author
+- Real product inventory integration
+- Real-time product pricing
+- User authentication
+- Persistent shopping lists
+- Order tracking
+- Payment integration
+- Personalized recommendations
+- Database integration
+- Production deployment
+- Mobile application
+- Advanced voice interaction
+- Real-time inventory availability
+- Personalized shopping experiences
 
-Sabbir Ali Seikh
+---
+
+## 👨‍💻 Author
+
+### Sabbir Ali Seikh
 
 GitHub:
 
 https://github.com/sabbiraliseikh892
 
+---
 
+## ⭐ Project
+
+If you find this project useful or interesting, consider giving the repository a ⭐ on GitHub.
+
+---
+
+## 📄 License
+
+This project is intended for educational, hackathon, and demonstration purposes.
